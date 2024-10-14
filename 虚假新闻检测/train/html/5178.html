@@ -1,0 +1,306 @@
+<!-- 注意：这个文件是一个公共文件，被很多地方引用，改动需要注意其他类型页面是否有受影响 -->
+<!DOCTYPE html>
+<html class="">
+    <head>
+                        <meta name="wechat-enable-text-zoom-em" content="true">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        
+        <script nonce="" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+
+            var testRdmUrl = '//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/common/avatar_default70cb6d.svg';
+            
+            if (testRdmUrl.indexOf('mp.weixin.qq.com') > 0) {
+                window.__allowLoadResFromMp = true; 
+                window.__loadAllResFromMp = true; 
+
+                
+                document.documentElement.style.boxShadow = 'inset 0 0 15px green';
+            }
+
+            window.logs.pagetime['html_begin'] = (+new Date());
+            window.LANG= "zh_CN"; 
+
+        </script>
+        <title></title>
+        <script nonce="">
+        (() => {
+            
+            const ua = navigator.userAgent;
+            const noMobile = !(/(iPhone|iPad|iPod|iOS)/i.test(ua) || /Windows\sPhone/i.test(ua) || /(Android)/i.test(ua));
+            setTimeout(() => {
+                noMobile && document.title === '' && (document.title = '微信公众平台');
+            }, 1000);
+        })();
+        </script>
+        <!---请求录制 by gabyliu-->
+        <!--todo 这里要加cookie或actionType才加载 -->
+                 
+<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/2.2.0/weui.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/rumor/page_rumor370cb6e.css">
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/rumor/page_rumor2_pc.css"/>
+<![endif]-->
+
+    </head>
+
+    <body id="" class="zh_CN wx_wap_page   discuss_tab  appmsg_skin_default appmsg_style_default">
+        <!-- <span style="color: red">currentVersion </span>
+                <div style="color:red;padding-left: 50px;">is IOS</div>
+                        <span style="color: red">111</span>
+        <span style="color: red">222170009FF</span> -->
+
+        
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="dns-prefetch" href="https://wxa.wxs.qq.com">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+        
+		
+		
+		
+		
+        
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "" || '';
+        window.key = params['key'] || "" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="" type="text/javascript">
+            window.no_moon_ls = 0;
+    </script>
+
+        
+<div class="page_rumor">
+    <h3 class="page_rumor_title">此文章已被第三方辟谣</h3>
+    <div id="js_readsource" class="page_rumor_container page_rumor_article">
+        <h4 class="page_rumor_label">谣言文章</h4>
+        <p class="page_rumor_article_title">癌细胞最怕它？人人能做到，请告知您的家人！</p>
+        <p class="page_rumor_article_nickname"></p>
+                    <div class="seal"></div>
+            </div>
+    <div class="page_rumor_container page_rumor_viewport">
+        <h4 class="page_rumor_label">辟谣观点</h4>
+                <div class="flex space-between">
+            <div class="flex">
+                <span data-dispelbiz="MzI4ODExNDkwNQ==" class="js_toprofile radius_avatar biz_avatar">
+                                            <img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM7cdWDINBd0969JW735eDoUibTBXbDRf0V2dEcWgYZqJcQ/0" alt="">
+                                    </span>
+                <p class="js_toprofile page_rumor_content_title" data-dispelbiz="MzI4ODExNDkwNQ==">
+                    <span>潘战和</span>
+                    <span>全民较真-腾讯新闻</span>
+                </p>
+            </div>
+            <div id="js_follow_wrapper" class="follow_wrapper">
+                                <button class="weui-btn weui-btn_mini weui-btn_default" id="js_follow"  data-dispelbiz="MzI4ODExNDkwNQ==">关注</button>
+                            </div>
+        </div>
+        <p class="page_rumor_viewpoint_desc">喝热水不能抗癌！不管是白开水还是热柠檬水，都不能抗癌。不要以为“反正喝了也无害”，小心“烫”出食管癌！世界卫生组织将65℃以上的热饮列为2A类致癌物，可能增加食道癌危险。</p>
+                <p class="page_rumor_support">已赞 1717</p>
+        <div class="page_rumor_source">
+            <h4 class="page_rumor_label mt-20">辟谣来源</h4>
+            <a class="page_rumor_source_link" id="js_source_link" data-url="http://mp.weixin.qq.com/s?__biz=MzI4ODExNDkwNQ==&amp;amp;mid=503156732&amp;amp;idx=1&amp;amp;sn=696ea8f3437355453ee18acf3f379a71&amp;amp;chksm=73ca7e4a44bdf75c401d87f1beb5f461359bd10ee5ac642b10b057b4e054c601d820c072eee8&amp;amp;scene=15#rd" target="_blank">别被骗！喝热水不仅没法杀死癌细胞，反倒可能致癌</a>
+        </div>
+                    </div>
+    <div class="page_rumor_container page_rumor_more">
+        <h4 class="page_rumor_label">更多辟谣资讯</h4>
+        <div class="flex space-between" id="js_weapp">
+            <div class="flex">
+                <span class="radius_avatar biz_avatar">
+                    <img src="https://res.wx.qq.com/op_res/5YYPSDUJ9JfbF6Iqp8dNIcdlaYyzTBZP5dlNoC989qew6b2z6A7vRfTnsbanjfYh" alt="">
+                </span>
+                <p class="page_rumor_content_title">微信辟谣助手</p>
+            </div>
+            <i class="icon_access"></i>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+var PAGE_MID='mmbizwap:appmsg/rumor.html';
+</script>
+        <script nonce="" type="text/javascript">
+window.logs.pagetime.page_begin = Date.now();
+</script>
+        <script nonce="">
+	var __DEBUGINFO = {
+		debug_js: "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console70cb6e.js",
+		safe_js: "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe70cb6e.js",
+		res_list: []
+	};
+</script>
+
+<script nonce="" type="text/javascript">
+	(function () {
+		var totalCount = 0,
+			finishCount = 0;
+
+		function _loadVConsolePlugin() {
+			window.vConsole = new window.VConsole();
+			while (window.vConsolePlugins.length > 0) {
+				var p = window.vConsolePlugins.shift();
+				window.vConsole.addPlugin(p);
+			}
+			
+			if (!window.vConsole.isInited) {
+				window.vConsole._render();
+				window.vConsole._mockTap();
+				window.vConsole._bindEvent();
+				window.vConsole._autoRun();
+			}
+		}
+
+		function _addScript(uri, cb) {
+			totalCount++;
+			var node = document.createElement('SCRIPT');
+			node.type = 'text/javascript';
+			node.src = uri;
+			node.setAttribute('nonce', '');
+			if (cb) {
+				node.onload = cb;
+			}
+			document.getElementsByTagName('head')[0].appendChild(node);
+		}
+		if (
+			(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+			|| location.href.indexOf('vconsole=1') > -1
+		) {
+			window.vConsolePlugins = [];
+			_addScript('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min70cb6d.js', function () {
+				
+				_addScript('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt70cb6d.js', _loadVConsolePlugin);
+			});
+		}
+		if (document.cookie && document.cookie.indexOf('__xweb_remote_debug_device_token__') > -1) {
+			_addScript('https://mp.weixin.qq.com/mmbizappmsg/zh_CN/htmledition/js/scripts/mprdev-0.2.5.js', function () {
+				_addScript('https://mp.weixin.qq.com/mmbizappmsg/zh_CN/htmledition/js/scripts/xwebrd-0.0.2.js');
+			});
+		}
+
+		
+		try {
+			var adIframeUrl = localStorage.getItem('__WXLS_ad_iframe_url');
+			if (window === top) {
+				if (adIframeUrl) {
+					if (navigator.userAgent.indexOf('iPhone') > -1) {
+						var img = new Image();
+						img.src = adIframeUrl;
+					} else {
+						var link = document.createElement('link');
+						link.rel = 'prefetch';
+						link.href = adIframeUrl;
+						document.getElementsByTagName('head')[0].appendChild(link);
+					}
+				}
+			}
+		} catch (err) {
+
+		}
+
+	})();
+</script>
+        
+        <script>window.__moon_host = 'res.wx.qq.com';window.moon_map = {"biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log70cb6e.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor70cb6e.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx70cb6e.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes70cb6e.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse70cb6e.js","biz_wap/utils/jsmonitor_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/jsmonitor_report70cb6e.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax70cb6e.js","biz_wap/jsapi/mpapp_core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/mpapp_core70cb6e.js","common/color/dark.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/dark70cb6e.js","common/color/light.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/light70cb6e.js","common/color/background_color.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/background_color70cb6e.js","appmsg/weapp_common.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/weapp_common70cb6e.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion70cb6e.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event70cb6e.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core70cb6e.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html70cb6e.js","appmsg/rumor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/rumor70cb6e.js"};</script><script type="text/javascript">window.__wxgspeeds={}; window.__wxgspeeds.moonloadtime=+new Date()</script><script  type="text/javascript" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon70cb6e.js"></script>
+  <script>
+      var biz = "MzI4NjU4NTk2Mg==";
+      var mid = "2247486179";
+      var idx = "6";
+      var sn = "8021973a83e9a8c5682793331ae0381c";
+      window.cgiData = {
+        shareImg : "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_share70cb6d.png",
+        rumorTitle : "癌细胞最怕它？人人能做到，请告知您的家人！",
+        username: "gh_88f30299698a",
+        dispelUrl: ""
+      };
+
+      seajs.use("appmsg/rumor.js");
+  </script>
+
+        <style>body,.wx-root{--weui-BG-0:#ededed;--weui-BG-1:#f7f7f7;--weui-BG-2:#fff;--weui-BG-3:#f7f7f7;--weui-BG-4:#4c4c4c;--weui-BG-5:#fff;--weui-FG-0:rgba(0,0,0,0.9);--weui-FG-HALF:rgba(0,0,0,0.9);--weui-FG-1:rgba(0,0,0,0.5);--weui-FG-2:rgba(0,0,0,0.3);--weui-FG-3:rgba(0,0,0,0.1);--weui-FG-4:rgba(0,0,0,0.15);--weui-FG-5:rgba(0,0,0,0.05);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#fa9d3b;--weui-YELLOW:#ffc300;--weui-GREEN:#91d300;--weui-LIGHTGREEN:#95ec69;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1485ee;--weui-PURPLE:#6467f0;--weui-WHITE:#fff;--weui-LINK:#576b95;--weui-TEXTGREEN:#06ae56;--weui-FG:#000;--weui-BG:#fff;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:#fa9d3b;--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:#06ae56;--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:#10aeff;--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(0,0,0,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(0,0,0,0.05)}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.8);--weui-FG-HALF:rgba(255,255,255,0.6);--weui-FG-1:rgba(255,255,255,0.5);--weui-FG-2:rgba(255,255,255,0.3);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255,255,255,0.8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:rgba(250,157,59,0.6);--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:rgba(6,174,86,0.6);--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:rgba(16,174,255,0.6);--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(255,255,255,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(255,255,255,0.05)}}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.8);--weui-FG-HALF:rgba(255,255,255,0.6);--weui-FG-1:rgba(255,255,255,0.5);--weui-FG-2:rgba(255,255,255,0.3);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255,255,255,0.8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:rgba(250,157,59,0.6);--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:rgba(6,174,86,0.6);--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:rgba(16,174,255,0.6);--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(255,255,255,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(255,255,255,0.05)}.wx-root[data-weui-mode='care'],body[data-weui-mode='care']{--weui-BG-0:#ededed;--weui-BG-1:#f7f7f7;--weui-BG-2:#fff;--weui-BG-3:#f7f7f7;--weui-BG-4:#4c4c4c;--weui-BG-5:#fff;--weui-FG-0:#000;--weui-FG-HALF:#000;--weui-FG-1:rgba(0,0,0,0.6);--weui-FG-2:rgba(0,0,0,0.42);--weui-FG-3:rgba(0,0,0,0.1);--weui-FG-4:rgba(0,0,0,0.15);--weui-FG-5:rgba(0,0,0,0.05);--weui-RED:#dc3636;--weui-REDORANGE:#ff6146;--weui-ORANGE:#e17719;--weui-YELLOW:#bb8e00;--weui-GREEN:#4f8400;--weui-LIGHTGREEN:#2e8800;--weui-BRAND:#018942;--weui-BLUE:#007dbb;--weui-INDIGO:#0075e2;--weui-PURPLE:#6265f1;--weui-WHITE:#fff;--weui-LINK:#576b95;--weui-TEXTGREEN:#06ae56;--weui-FG:#000;--weui-BG:#fff;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:#e17719;--weui-TAG-BACKGROUND-ORANGE:rgba(225,119,25,0.1);--weui-TAG-TEXT-GREEN:#06ae56;--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:#007dbb;--weui-TAG-BACKGROUND-BLUE:rgba(0,125,187,0.1);--weui-TAG-TEXT-BLACK:rgba(0,0,0,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(0,0,0,0.05)}@media(prefers-color-scheme:dark){.wx-root[data-weui-mode='care']:not([data-weui-theme='light']),body[data-weui-mode='care']:not([data-weui-theme='light']){--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.85);--weui-FG-HALF:rgba(255,255,255,0.65);--weui-FG-1:rgba(255,255,255,0.55);--weui-FG-2:rgba(255,255,255,0.35);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255,255,255,0.8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:rgba(250,157,59,0.6);--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:rgba(6,174,86,0.6);--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:rgba(16,174,255,0.6);--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(255,255,255,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(255,255,255,0.05)}}.wx-root[data-weui-mode='care'][data-weui-theme='dark'],body[data-weui-mode='care'][data-weui-theme='dark']{--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.85);--weui-FG-HALF:rgba(255,255,255,0.65);--weui-FG-1:rgba(255,255,255,0.55);--weui-FG-2:rgba(255,255,255,0.35);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255,255,255,0.8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:rgba(250,157,59,0.6);--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:rgba(6,174,86,0.6);--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:rgba(16,174,255,0.6);--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(255,255,255,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(255,255,255,0.05)}.wx-root,body{--weui-BG-COLOR-ACTIVE:#ececec}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-BG-COLOR-ACTIVE:#373737}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-BG-COLOR-ACTIVE:#373737}}body,.wx-root,page{--weui-BTN-HEIGHT:48;--weui-BTN-HEIGHT-MEDIUM:40;--weui-BTN-HEIGHT-SMALL:32}.wx-root,body{--weui-BTN-ACTIVE-MASK:rgba(0,0,0,0.1)}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-BTN-ACTIVE-MASK:rgba(255,255,255,0.1)}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-BTN-ACTIVE-MASK:rgba(255,255,255,0.1)}}.wx-root,body{--weui-BTN-DEFAULT-ACTIVE-BG:#e6e6e6}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-BTN-DEFAULT-ACTIVE-BG:rgba(255,255,255,0.126)}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-BTN-DEFAULT-ACTIVE-BG:rgba(255,255,255,0.126)}}.wx-root,body{--weui-DIALOG-LINE-COLOR:rgba(0,0,0,0.1)}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-DIALOG-LINE-COLOR:rgba(255,255,255,0.1)}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-DIALOG-LINE-COLOR:rgba(255,255,255,0.1)}}.weui-hidden_abs{opacity:0;position:absolute;width:1px;height:1px;overflow:hidden}.weui-a11y_ref{display:none}.weui-hidden-space:empty:before{content:"\00A0";position:absolute;width:1px;height:1px;overflow:hidden}.weui-a11y-combo{position:relative}.weui-a11y-combo__helper{opacity:0;position:absolute;width:100%;height:100%;overflow:hidden}.weui-a11y-combo__content{position:relative;z-index:1}.weui-wa-hotarea-el{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);min-width:44px;min-height:44px;width:100%;height:100%}.weui-wa-hotarea-el__wrp,.weui-wa-hotarea,.weui-wa-hotarea_before{position:relative}.weui-wa-hotarea-el__wrp a,.weui-wa-hotarea a,.weui-wa-hotarea_before a,.weui-wa-hotarea-el__wrp button,.weui-wa-hotarea button,.weui-wa-hotarea_before button,.weui-wa-hotarea-el__wrp navigator,.weui-wa-hotarea navigator,.weui-wa-hotarea_before navigator{position:relative;z-index:1}.weui-wa-hotarea_before:before,.weui-wa-hotarea:after{content:"";pointer-events:auto;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);min-width:44px;min-height:44px;width:100%;height:100%}.test{color:red}body .weui-hidden_abs,body .aria_hidden_abs{position:absolute;opacity:0;overflow:hidden;left:auto;width:1px;height:1px}body .weui-a11y_ref{display:none}body .weui-wa-hotarea_before:before,body .weui-wa-hotarea:after{pointer-events:auto}body .weui-wa-hotarea-el__wrp button{position:relative;z-index:1}</style>
+<script nonce="" type="text/javascript" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/lib/wa-helper.min70cb6e.js"></script>
+<script nonce="" type="text/javascript">
+  
+</script>
+
+
+
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_colon">：</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_comma">，</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_period">。</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_space">&nbsp;</span>
+
+
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_type_video">视频</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_type_weapp">小程序</span>
+
+
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_zan_btn_txt">赞</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_zan_btn_tips">，轻点两下取消赞</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_like_btn_txt">在看</span>
+<span aria-hidden="true" class="weui-a11y_ref" style="display:none" id="js_a11y_like_btn_tips">，轻点两下取消在看</span>
+
+    </body>
+
+    <script nonce="" type="text/javascript" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/promise70cb6e.js"></script>
+</html>
